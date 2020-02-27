@@ -1,5 +1,5 @@
 ## 🗂 Memo Cards
-A memory app - remember concepts better with spaced repetition.
+A memory app that helps you remember concepts better with spaced repetition.
 
 ### What is spaced repetition?
 Spaced repetition is a learning technique that incorporates increasing intervals of time between subsequent review and testing of previously learned material in order to exploit the psychological spacing effect.
