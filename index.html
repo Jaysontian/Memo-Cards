@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MemoCards</title>
+    <link rel="stylesheet" href="index.css"></link>
+  </head>
+  <body>
+    <div id='padding'>
+      <nav>
+        <button onclick='deck.new()'>Home</button>
+        <button onclick='learn.init()'>Review (<span id='today-count'>0</span>)</button>
+        <div class='decks'></div>
+        <button onclick='deck.new()'>+ New deck</button>
+      </nav>
+      <div class='main'>
+        <div class='cards'></div>
+      </div>
+    </div>
+  </body>
+  <script src='jquery.js'></script>
+  <script src='help.js'></script>
+  <script src='data.js'></script>
+  <script src='index.js'></script>
+</html>
